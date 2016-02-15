@@ -1,0 +1,243 @@
+﻿/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11.03.2014., 17:34:42
+    Author     : vjezbe15
+*/
+
+body {
+
+    background: whitesmoke;
+    margin-left:auto; 
+    margin-right:auto;
+    font-size:87.5%;
+    font-family:Arial, 'Lucida Sans Unicode';
+    width:95%;
+
+}
+header{
+    background-color:#0A4958;
+    color:white;
+    background-image: url("../img/foi_logo_white.png");
+    background-repeat: no-repeat;
+    background-size: 250px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width: 100%;
+    height:50px;
+
+}
+
+h1{font-size: 14px;}
+.link{
+    color:white;
+    text-decoration: none;    
+}
+nav#izbornik{
+    width:100%;
+}
+ul#navigacija{
+    list-style: none;
+    margin:0 auto;
+    background-color: #0A4958;
+    height: 10%;
+    overflow:auto;
+}
+#izbornik ul li{
+    float:left;
+    display:inline;
+    padding:10px 5px 10px 0px;
+
+}
+#izbornik  ul li a {
+    display:inline-block;
+    color:white;
+    text-decoration:none; 
+    text-transform:uppercase;
+    background:#0A4958;   
+    font-weight:bold;
+    padding:3px 4px;
+
+
+}
+#izbornik ul li a:hover{ /* kad pređemo mišem*/
+    background:#01B6AD;
+    color:white;
+}
+.content{
+    margin-left:15%;
+    width: 70%;
+    background-color: white;
+    padding: 3% 5%;
+}
+
+footer{
+    background-color: #0A4958;
+    text-decoration:none;
+    color:white;
+    text-align: center;
+    width:100%;
+    clear:both;
+}
+footer>address>a{
+
+    color:white;
+    text-align: center;
+}
+table,th,td
+{ 
+    border:1px solid #0A4958;
+}
+th,td{
+    padding: 1px;
+}
+table.tablica tr:nth-child(even){
+    background-color: #87AAAE;
+    color:white
+}
+table.tablica tr:nth-child(odd){
+    background-color: white;
+}
+table.tablica tr:hover {
+    background-color: #0A4958;
+    color:white;
+}
+.gumb{
+    background:#ccc;
+    cursor: pointer;
+    padding:5px 10px;
+    border-radius: 8px;
+    margin-top:8px;
+    margin-bottom:8px;
+}
+/*
+input:not([type="radio"]):not([type="checkbox"])  {
+    width: 30%;
+}
+*/
+.nevidljivo{
+    display:none;
+}
+.vidljivo{
+    display:block;
+}
+.crveno{
+    border:1px solid red;
+}
+.pozadinaCrveno{
+    color:red;
+}
+form{
+    font-weight: bold;
+    color: black;
+    margin:5% 15%;
+    background:#eaeaea; 
+    border-radius:5px;
+    padding:5px;
+    width:70%
+}
+label{
+    color:#555555;
+    text-align:left;
+    width:50%;    
+    margin:0 auto;
+    padding:0px;
+
+    float:left;
+}
+.registracija{
+    font-weight: bold;
+    color: black;
+    margin:2% 15%;
+    background:#eaeaea; 
+    border-radius:5px;
+    padding:5px;
+    width:70%   
+}
+
+.error{
+
+    display:block;
+    color:red;
+    float: right;			
+    margin-top: -1.5%;
+}
+.registracija label{
+    text-align:left;
+    width:30%;    
+    padding:0px;
+    clear:both; 
+}
+video{
+    width:99%;
+}
+textarea{
+    width: 60%;
+}
+select{
+    width: 30%;
+}
+#registracija table{
+    border:none;
+}
+#registracija table th td{
+    border:none;
+}
+.none{
+    border:none;
+}
+.none td{
+    border:none;
+}
+.none label{
+    width:100%;
+}
+.nevidljivo{
+    display:none;
+}
+@media only screen and (max-width:740px) and (min-width:451px){ 
+    header{
+        background-image:none;
+    }
+    body{
+        width: 95%;
+        margin:auto;
+    }
+    form{
+        margin: auto;
+        width:99%;
+    }
+    .content{
+        width:85%;
+        margin:auto;
+    }
+    label{
+        width: 40%;
+    }
+    video{
+        width:99%;
+    }
+    textarea{
+        width:90%;
+    }
+    select{
+        width: 50%;
+    }
+}
+@media only screen and (max-width:450px) {
+    header{
+        background-image: none;
+    }
+    video{
+        width:99%;
+    }
+    textarea{
+        width: 60%;
+    }
+    select{
+        width: 30%;
+    }
+}
